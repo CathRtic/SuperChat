@@ -10,14 +10,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyABgZzwHGGR7AH3XrPzFLTB2WjNBDWWP78",
-  authDomain: "superchat-87afb.firebaseapp.com",
-  databaseURL: "https://superchat-87afb-default-rtdb.firebaseio.com",
-  projectId: "superchat-87afb",
-  storageBucket: "superchat-87afb.appspot.com",
-  messagingSenderId: "148131678295",
-  appId: "1:148131678295:web:4ec6cd7deecd50ec6afb12",
-  measurementId: "G-R6LCLFJ2PL"
+  //your config
 })
 
 const auth = firebase.auth();
